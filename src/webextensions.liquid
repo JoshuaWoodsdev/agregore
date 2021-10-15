@@ -1,0 +1,45 @@
+---
+layout: home
+---
+
+
+<article class="helvetica pb5" id="heroprotocols">
+  <header class="vh-100 dt w-100">
+    <div
+      class="dtc v-mid cover ph3 ph4-m ph5-l">
+      <h1 class="f2 f-subheadline-l measure lh-title fw9 purple">Web Extensions</h1>
+    </div>
+  </header>
+</article>
+<article class="cf ph3 ph5-ns pv5 white" id="hello">
+ <header class="fn fl-ns w-50-ns pr4-ns">
+   <h1 class="mb3 mt0 lh-title">Installing extensions
+</h1>
+   <time class="f6 ttu tracked white"></time>
+ </header>
+ <div class="fn fl-ns w-50-ns">
+   <p class="f4 lh-copy measure near-white">
+     Agregore doesn't yet support loading extensions from app stores or zip files, but you can place the extracted extensions inside a folder for it to load.
+
+Click on Help > Open Extension Folder in the application menu on any window to open up your extensions folder.
+
+You can drop folders in here to have them load when Agregore starts up.
+
+For a list of APIs that are supported, please look at the Electron Extensions module.
+
+Agregore comes with two built-in extensions. A basic ad blocker, and the history tracking extension.
+
+You can change the location of your extensions folder by editing your .agregorerc config file.
+
+This can be done by clicking Help > Edit Configuration File, then adding in the following contents:
+   </p>
+<br>
+   { <br>
+   "extensions": {
+      <br>
+     "dir": "/your/extensions/folder/here" <br>
+ }
+  <br>
+}
+ </div>
+</article>

@@ -1,0 +1,50 @@
+---
+layout: home
+---
+
+<article class="helvetica pb5">
+  <header class="vh-100 dt w-100">
+    <div
+      style="background:url(/images/block.jpg) no-repeat center right;background-size: cover;"
+      class="dtc v-mid cover ph3 ph4-m ph5-l">
+      <h1 class="f2 f-subheadline-l measure lh-title fw9 purple dim-white">Theming</h1>
+    </div>
+  </header>
+</article>
+
+<div class="pt2 ph6-l " id="openingtext">
+   <p class=" pl1 pr1 f4 mb2 pa3 lh-copy mt0-ns near-white tl" id="hello">
+     Agregore provides CSS variables for themeing the browser at the URL agregore://theme/vars.css.
+
+     The contents of this look something like:
+      <br>
+      <div class="three"><a href="/">
+        <img src="/images/here.png">
+      </a></div>
+
+    </div>
+    <div class="pt2 ph6-l " id="openingtext">
+       <p class=" pl1 pr1 f4 mb2 pa3 lh-copy mt0-ns near-white tl" id="hello">
+      These can be imported anywhere you'd like to use browser styling. Specifically, you should try to use the --ag-theme-* variables for the page when possible.
+You can also make use of the agregore://theme/style.css which adds some default styling to stuff like headers, the background/text colors, and links.
+This is useful for styling markdown pages or other pages with basic HTML. You probably shouldn't include this if you're doing something fancy with styling as the styles may change over time.
+The style includes a class called agregore-header-anchor which can be used on anchors within headers for linking to headings. Checkout the markdown extension<br>
+<br>
+The --ag-theme-* variables can me modified in the .agregorerc file by clicking Help > Edit Configuration File and adding the following content:</p>
+<div class="three"><a href="/">
+  <img src="/images/here2.png">
+</a></div>
+
+   <p class=" pl1 pr1 f4 mb2 pa3 lh-copy mt0-ns near-white tl" id="hello">
+You can replace the various values with any valid CSS values like Hex codes: #FFAABB, or rgb().
+
+More styles will be added here as needed. If you feel we should standardize on some sort of style, feel free to open an issue talking about what it is and why it should be added.
+Highlight.js
+
+For convenience, Agregore bundles highlight.js and a default theme for it.
+
+You can load it up using <b>agregore://theme/highlight.js</b> and <b>agregore://theme/highlight.css</b>.
+</p>
+
+
+</div>
